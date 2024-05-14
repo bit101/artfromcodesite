@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h2>{{ .Title }}</h2>
+  {{ if eq .Title "Tags" }}
+  <ul class="tag-list shadowed">
+    {{ range .Paginator.Pages.ByTitle }}
+      {{ partial "tags.html" . }}
+    {{ end }}
+  </ul>
+  {{ else }}
+  <ul class="post-list">
+    {{ range .Paginator.Pages.ByPublishDate.Reverse }}
+      {{ partial "postsummary.html" . }}
+    {{ end }}
+  </ul>
+  {{ end }}
+  <div class="pagination-container">
+    {{ template "_internal/pagination.html" . }}
+  </div>
+{{ end }}

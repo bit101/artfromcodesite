@@ -1,0 +1,17 @@
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<div class="meta-item">
+  {{ if .PublishDate }}
+  <time datetime="{{ $dateTime }}">
+    {{ .PublishDate.Format $dateFormat }}
+  </time>
+  <br />
+  {{ end -}}
+  {{ if .Params.tags }}
+  Tags:
+  {{ range $i, $e := .Params.tags }}
+  {{ if $i }}, {{ end }}
+  <a class="meta-item" href="{{ add (absURL `tags/`) (.)}}">{{ . }}</a>
+  {{ end }}
+  {{ end }}
+</div>

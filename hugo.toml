@@ -1,0 +1,36 @@
+title = "Art From Code"
+baseURL = "https://artfromcode.com"
+languageCode = "en-us"
+theme = "afc"
+paginate = 10
+
+[params]
+  mastodon = "https://mstdn.social/@bit101"
+  imageURL = "https://bit-101.com/blog2024_images/"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Archived Site"
+    url = "https://archive.artfromcode.com"
+    weight = 4
+
+
+[outputs]
+  home = ['html', 'rss']
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup]
+  [markup.highlight]
+    style = "manni"

@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ partial "welcome.html" }}
+<h2>Latest Creation</h2>
+<ul class="post-list">
+  {{ range .Site.RegularPages.ByPublishDate.Reverse.Limit 1 }}
+  <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>
+  {{ partial "metadata.html" . }}
+  {{ .Content }}
+</ul>
+<div class="prev-next">
+  <div>
+    {{ if .PrevPage }}
+    <a href="{{ .PrevPage.Permalink }}">&lt; Past</a>
+    {{ end }}
+  </div>
+</div>
+<hr />
+<p class="comments"><a href="{{ .Site.Params.mastodon }}">Find me on Mastodon</a></p>
+<p class="comments"><a
+    href="https://mastodonshare.com/?text=Reading: '{{ .Title }}' from {{ .Site.Params.mastodon }}&url={{ .Permalink }}">Share post on Mastodon </a></p>
+{{ end }}
+{{ end }}

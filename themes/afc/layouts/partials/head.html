@@ -1,0 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="creative coding, golang, programming, technology, code art, generative art, algorithmic art, blog, tutorials">
+    <meta name="author" content="Keith Peters">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ if .Params.summary }}
+    <meta name="description" content="{{ .Params.summary }}">
+    {{ else }}
+    <meta name="description" content="Programming, creative coding, tutorials by Keith Peters">
+    {{ end }}
+
+    <meta property="og:title" content="BIT-101: {{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ absURL .RelPermalink }}" />
+    <meta property="og:image" content="https://bit-101.com/blog2024_images/buddhakeith.png" />
+    
+    <link rel="icon" type="image/x-icon" href="https://bit-101.com/blog/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="{{ absURL `css/style.css` }}">
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

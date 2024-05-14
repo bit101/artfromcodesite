@@ -1,0 +1,12 @@
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<li class="post-item shadowed">
+  <div class="thumb">
+    <a href="{{ .RelPermalink}}">
+      <img src="http://artfromcode.com/afc_media/{{ .Params.thumb }}"/>
+    </a>
+  </div>
+  <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>
+  {{ partial "metadata.html" . }} 
+</li>
+

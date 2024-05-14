@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm -rf public
+hugo
+cp .htaccess public/
+rsync -avz --include ".htaccess" --delete public/ --exclude afc_media/ keipet3@bit-101.com:~/artfromcode.com
+# rsync -avz public/ keipet3@bit-101.com:~/bit-101.com/new
