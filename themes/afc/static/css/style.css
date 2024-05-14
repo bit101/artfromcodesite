@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   font-size: 1.1em;
   color: #eee;
-  background-color: #444;
+  background-color: #222;
   /* font-family: Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
   font-family: Courier New;
 }
@@ -61,7 +61,7 @@ p a {
 .header {
   width: 100%;
   padding-bottom: 10px;
-  background: #333;
+  background: #444;
   flex-shrink: 0;
 }
 
@@ -76,7 +76,7 @@ p a {
 .footer {
   width: 100%;
   height: 40px;
-  background: #333;
+  background: #444;
   flex-shrink: 0;
   font-size: 12px;
   padding-top: 8px;
@@ -92,7 +92,10 @@ p a {
 
 .comments, .comments a {
   font-style: italic;
+  font-size: 0.9em;
+  font-weight: bold;
   color: #eee;
+  text-decoration: none;
 }
 
 .post-list {
@@ -100,7 +103,7 @@ p a {
 }
 
 .post-item {
-  background-color: #333;
+  background-color: #444;
   list-style: none;
   margin-bottom: 20px;
   padding: 10px;
@@ -126,7 +129,7 @@ p a {
 
 .tag-list {
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #444;
 }
 
 .nav {

@@ -7,4 +7,4 @@ summary: ""
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240512/20240512.mp4" "A sphere orbits above a grid plane, dropping through the plane to the other side and back. The plane bulges and opens as the sphere passes through it. The words No Barriers appear in the background." >}}
+{{< cdnvideo "20240512/20240512.mp4" "A sphere orbits above a grid plane, dropping through the plane to the other side and back. The plane bulges and opens as the sphere passes through it. The words No Barriers appear in the background." "controls" >}}
