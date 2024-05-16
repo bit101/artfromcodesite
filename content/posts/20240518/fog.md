@@ -1,7 +1,7 @@
 ---
 title: "Fog"
 date: 2024-05-18T04:22:59-04:00
-draft: true
+draft: false
 thumb: "20240518/thumb.png"
 tags: ["wire"]
 ---
