@@ -2,8 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-postImage: ""
-summary: ""
+thumb: "DATE/thumb.png"
 tags: []
 ---
 
+{{< cdnvideo "DATE/DATE.mp4" "" "controls" >}}
