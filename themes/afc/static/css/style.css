@@ -166,13 +166,14 @@ p a {
 .page-item {
   float: left;
   margin: 0 4px 4px 0;
-  background-color: #ddd;
+  background-color: #444;
   text-align: center;
-  border: 1px #bbb solid;
+  border: 1px #555 solid;
   border-radius: 3px;
 }
 
 .page-item a {
+  color: #aaa;
   line-height: 28px;
   vertical-align: middle;
   display: block;
@@ -182,16 +183,17 @@ p a {
 }
 
 .page-item.disabled {
-  background-color: #f8f8f8;
-  border: 1px #eee solid;
+  background-color: #222;
+  border: 1px #444 solid;
 }
 
 .page-item.disabled a {
-  color: #ccc;
+  color: #444;
 }
 
 .page-item.active a {
   font-weight: bold;
+  color: #ddd;
 }
 
 .shadowed, .highlight {
