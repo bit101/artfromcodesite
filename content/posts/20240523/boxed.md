@@ -1,7 +1,7 @@
 ---
 title: "Boxed"
 date: 2024-05-23T04:47:52-04:00
-draft: true
+draft: false
 thumb: "20240523/thumb.png"
 tags: ["wire"]
 ---
