@@ -1,7 +1,7 @@
 ---
 title: "Flotsam"
 date: 2024-06-06T04:50:31-04:00
-draft: true
+draft: false
 thumb: "20240606/thumb.png"
 tags: ["wire"]
 ---
