@@ -1,6 +1,6 @@
 ---
 title: "Swamped"
-date: 2024-06-08T04:55:45-04:00
+date: 2024-06-08T04:25:45-04:00
 draft: false
 thumb: "20240608/thumb.png"
 tags: ["wire", "attractor"]
