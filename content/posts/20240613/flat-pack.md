@@ -1,8 +1,8 @@
 ---
 title: "Flat Pack"
 date: 2024-06-13T04:43:51-04:00
-20240613: false
-thumb: "DATE/thumb.png"
+draft: false
+thumb: "20240613/thumb.png"
 tags: ["wire", "attractor"]
 ---
 
