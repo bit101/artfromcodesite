@@ -6,4 +6,4 @@ thumb: "20240621/thumb.png"
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240621/20240621.mp4" "" "controls" >}}
+{{< cdnvideo "20240621/20240621.mp4" "" >}}

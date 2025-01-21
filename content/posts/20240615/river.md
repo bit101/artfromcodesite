@@ -6,4 +6,4 @@ thumb: "20240615/thumb.png"
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240615/20240615.mp4" "varios 3d shape bob and float towards the viewer, in what seems to be a white liquid" "controls" >}}
+{{< cdnvideo "20240615/20240615.mp4" "varios 3d shape bob and float towards the viewer, in what seems to be a white liquid" >}}

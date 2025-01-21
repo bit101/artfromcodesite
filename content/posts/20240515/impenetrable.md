@@ -6,5 +6,5 @@ thumb: "20240515/thumb.png"
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240515/20240515.mp4" "A sphere falls towards the floor, inverts itself and rises up. The word Impenetrable rotates around it all." "controls" >}}
+{{< cdnvideo "20240515/20240515.mp4" "A sphere falls towards the floor, inverts itself and rises up. The word Impenetrable rotates around it all." >}}
 

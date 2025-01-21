@@ -6,4 +6,4 @@ thumb: "20240614/thumb.png"
 tags: ["wire", "attractor"]
 ---
 
-{{< cdnvideo "20240614/20240614.mp4" "a point cloud model of the earth morphs into a strange attractor and back" "controls" >}}
+{{< cdnvideo "20240614/20240614.mp4" "a point cloud model of the earth morphs into a strange attractor and back" >}}

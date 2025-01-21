@@ -6,4 +6,4 @@ thumb: "20240622/thumb.png"
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240622/20240622.mp4" "an oblong 3d box spins, twists, forms a sort of torus, spins, returns to its original shape." "controls" >}}
+{{< cdnvideo "20240622/20240622.mp4" "an oblong 3d box spins, twists, forms a sort of torus, spins, returns to its original shape." >}}

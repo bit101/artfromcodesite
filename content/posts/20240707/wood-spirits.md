@@ -6,6 +6,6 @@ thumb: "20240707/thumb.png"
 tags: ["wire", "attractor"]
 ---
 
-{{< cdnvideo "20240707/20240707.mp4" "" "controls" >}}
+{{< cdnvideo "20240707/20240707.mp4" "forest with swirling shapes" >}}
 
 {{< citation "Photo by Anton Atanasov" "https://www.pexels.com/photo/landscape-photo-of-forest-1655901" >}}

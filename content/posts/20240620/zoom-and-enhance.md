@@ -6,4 +6,4 @@ thumb: "20240620/thumb.png"
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240620/20240620.mp4" "camera zooms inside of a sphere. there is cube there. it zooms inside of the cube. there is a sphere. the words zoom and enhance are also within the shapes" "controls" >}}
+{{< cdnvideo "20240620/20240620.mp4" "camera zooms inside of a sphere. there is cube there. it zooms inside of the cube. there is a sphere. the words zoom and enhance are also within the shapes" >}}

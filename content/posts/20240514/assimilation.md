@@ -6,4 +6,4 @@ thumb: "20240514/thumb.png"
 tags: ["wire"]
 ---
 
-{{< cdnvideo "20240514/20240514.mp4" "A small sphere moves towards a larger one. The larger sphere bulges inward and then outward as the small sphere moves inside it. The word Assimilation moves in the background." "controls" >}}
+{{< cdnvideo "20240514/20240514.mp4" "A small sphere moves towards a larger one. The larger sphere bulges inward and then outward as the small sphere moves inside it. The word Assimilation moves in the background." >}}
